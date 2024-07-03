@@ -5,7 +5,7 @@ const ko = require('javascript-time-ago/locale/ko');
 TimeAgo.addLocale(ko)
 const timeAgoKorean = new TimeAgo('ko-KR');
 
-const apiKey = 'AIzaSyCfwKKSwgB6Wh5Yt1kvzNj_ytGRuoBJuRg';
+const apiKey = '';
 
 function truncateText(text, maxLength) {
     if (!text) {
